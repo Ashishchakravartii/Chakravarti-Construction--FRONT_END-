@@ -1,0 +1,355 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    overflow: hidden;
+}
+#logo{
+    margin-left: 352px;
+    margin-top: 3px;
+}
+a{
+   margin-left: 70px;
+}
+
+#brandname{
+    position: absolute;
+    z-index: 2;
+    left: 2%;
+    top: 2%;
+
+    /* font-family: 'Rancho', cursive; */
+    font-family: 'Unica One', cursive;
+font-size: 40px;
+/* text-decoration: underline; */
+
+}
+#topexp1{
+    position: absolute;
+    z-index: 3;
+    left: 88.5%;
+    top: 3%;
+
+    font-size: 30px;
+    padding: 5px 10px;
+}
+#topexp2{
+    position: absolute;
+    z-index: 3;
+    left: 82%;
+    top: 3%;
+
+    font-size: 30px;
+    padding: 5px 10px;
+}
+#topexp3{
+    position: absolute;
+    z-index: 3;
+    left: 75%;
+    top: 3.7%;
+
+    font-size: 30px;
+    padding: 5px 10px;
+}
+
+#div1{
+    width: 100%;
+    height: 800px;
+    background-image: url(c-dustin-91AQt9p4Mo8-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    
+
+}
+#div1box{
+    width: 280px;
+    height: 400px;
+    background-color: white;
+    border: none;
+    border-radius: 2px;
+
+    position: absolute;
+    z-index: 4;
+    left: 25%;
+    top: 480px;
+}
+#div1h2{
+    text-align: center;
+    font-size: 45px;
+    margin-top: 19px;
+    font-family: 'Unica One', cursive;
+
+    font-weight: 100;
+}
+#div1p1{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 5px;
+    margin-left: 8px;
+    text-align: justify;
+    padding: 25px;
+    text-align: left;
+
+    font-family: 'Genos', sans-serif;
+}
+#div1b{
+    font-size: 23px;
+    background-color: black;
+    color: white;
+    margin-left: 63%;
+    margin-top: 25px;
+    padding: 5px 30px;
+    border-radius: 5px;
+}
+#div2h2{
+    text-align: center;
+    font-size: 45px;
+    margin-top: 19px;
+    font-family: 'Unica One', cursive;
+
+    font-weight: 100;
+}
+#div2p1{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 5px;
+    margin-left: 8px;
+    text-align: justify;
+    padding: 25px;
+    text-align: left;
+
+    font-family: 'Genos', sans-serif;
+}
+#div2b{
+    font-size: 23px;
+    background-color: black;
+    color: white;
+    margin-left: 69%;
+    margin-top: -8px;
+    padding: 5px 30px;
+    border-radius: 5px;
+}
+
+#div2{
+    width: 100%;
+    height: 800px;
+    background-color: #BEEBE9;
+    position: relative;
+
+}
+#imgdiv2{
+    width: 35%;
+    height: 70%;
+
+    position: absolute;
+    right: 49%;
+    top: 30%;
+}
+#subdiv2{
+    width: 22%;
+    height: 65%;
+    position: absolute;
+    z-index: 2;
+    right: 34%;
+    top: 57%;
+
+    background-color: white;
+}
+.div3{
+    width: 100%;
+    height: 1000px;
+
+    border-radius: 2px;
+    background-color: #EFFFFD;
+    position: relative;
+}
+#img1div3{
+    width: 35%;
+    height: 50%;
+
+    position: absolute;
+    bottom: 15%;
+    left: 8%;
+   
+}
+#img2div3{
+    width: 35%;
+    height: 50%;
+
+    position: absolute;
+    bottom: 15%;
+    right: 8%;
+}
+#div3h2{
+    text-align: center;
+    font-size: 45px;
+    margin-top: 19px;
+    font-family: 'Unica One', cursive;
+
+    font-weight: 100;
+}
+#div3p1{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 5px;
+    margin-left: 8px;
+    text-align: justify;
+    padding: 25px;
+    text-align: left;
+
+    font-family: 'Genos', sans-serif;
+}
+#div3b{
+    font-size: 23px;
+    background-color: black;
+    color: white;
+    margin-left: 69.5%;
+    margin-top: 10px;
+    padding: 5px 30px;
+    border-radius: 5px;
+}
+#subdiv3{
+    width: 22%;
+    height: 42%;
+    position: absolute;
+    z-index: 2;
+    right: 39%;
+    top: 50%;
+
+     background: linear-gradient( to bottom left,white,#91D8E4);
+}
+/* .footer{
+    width: 100vw;
+    height: 50vh;
+    background-color: #BEEBE9;
+   
+    font-family: 'Unica One', cursive;
+    position: relative;
+   
+}
+.f1{
+    width: 100vw;
+    height: 15vh;
+    background-color: grey                                                                                      ;
+    padding-left: 25%;
+    padding-top: 2%;
+    font-size: 40px;
+}
+#emailbox{
+    position: absolute;
+    left: 55%;
+    font-size: 20px;
+    top: 12%;
+    background-color: white;
+    border: 2px solid rgb(232, 102, 55);
+    border-radius: 10px;
+
+}
+#submit{
+    position: absolute;
+    left: 75%;
+    top: 12%;
+    font-size: 20px;
+    background-color: rgb(232, 102, 55);
+    padding: 0px 5px;
+    border-radius: 2px;
+    color: black;
+    font-family: 'Unica One', cursive; */
+
+/* } */
+#d4{
+    width: 100%;
+    height: 500px;
+    background-color: white;
+
+    /* position: absolute; */
+
+}
+
+#h4{
+    font-family: 'Tilt Neon', cursive;
+    margin-top: 120px;
+    /* background-color: #1C315E; */
+    background-color: gray;
+    color: white;
+    padding: 40px;
+    position: relative;
+
+
+}
+
+#lemailbox{
+   background-color: white;
+    color: #7dd2ce;
+    font-size: 20px;
+    padding: 8px;
+    border: 2px solid white;
+    text-align: left;
+
+
+    position: absolute;
+    left: 60%;
+    top: 387%;
+
+}
+
+#sbutton {
+    position: absolute;
+    left: 80%;
+    top: 387%;
+    border: none;
+    font-size: 20px;
+    padding: 8px;
+    background-color: #EB6440;
+}
+#d5{
+    font-family: 'Tilt Neon', cursive;
+    font-size: 20px;
+   position: absolute;
+   left: 28%;
+   top: 400%;
+   padding-top: 2%;
+
+
+}
+#d6{
+    font-family: 'Tilt Neon', cursive;
+    font-size: 20px;
+   position: absolute;
+   left: 58%;
+   top: 400%;
+   padding-top: 2%;
+
+
+}
+#d7{
+    font-family: 'Tilt Neon', cursive;
+    font-size: 20px;
+    position: absolute;
+    top: 410%;
+    left: 88%;
+    padding-top: 2%;
+}
+#imgapp{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+#imgapp1{
+    margin-top: 30px;
+    margin-right: 60px;
+}
+#d8{
+    font-family: 'Tilt Neon', cursive;
+    font-size: 20px;
+    position: absolute;
+    top: 400%;
+    left: 5%;
+    padding-top: 8%;
+
+}
