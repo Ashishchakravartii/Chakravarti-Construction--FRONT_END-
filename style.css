@@ -1,36 +1,53 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-html,body{
+
+html,
+body {
     width: 100%;
     height: 100%;
 }
-.main{
+
+.main {
     overflow: hidden;
 }
-#logo{
+
+#logo {
     margin-left: 352px;
     margin-top: 3px;
 }
-a{
-   margin-left: 70px;
+
+a {
+    margin-left: 70px;
 }
 
-#brandname{
+#brandname {
     position: absolute;
     z-index: 2;
     left: 2%;
     top: 2%;
+    color: white;
+    text-shadow: 20px 5px 10px #7dd2ce;
 
+    border-bottom: 0.2vmax solid #91D8E4;
     /* font-family: 'Rancho', cursive; */
     font-family: 'Unica One', cursive;
-font-size: 40px;
-/* text-decoration: underline; */
+    font-size: 40px;
+    /* text-decoration: underline; */
 
 }
-#topexp1{
+
+.overlay {
+    width: 100%;
+    height: 112%;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    z-index: 2;
+}
+
+#topexp1 {
     position: absolute;
     z-index: 3;
     left: 88.5%;
@@ -39,7 +56,8 @@ font-size: 40px;
     font-size: 30px;
     padding: 5px 10px;
 }
-#topexp2{
+
+#topexp2 {
     position: absolute;
     z-index: 3;
     left: 82%;
@@ -48,7 +66,8 @@ font-size: 40px;
     font-size: 30px;
     padding: 5px 10px;
 }
-#topexp3{
+
+#topexp3 {
     position: absolute;
     z-index: 3;
     left: 75%;
@@ -58,16 +77,17 @@ font-size: 40px;
     padding: 5px 10px;
 }
 
-#div1{
+#div1 {
     width: 100%;
     height: 800px;
-    background-image: url(images/fixed\ img.jpg);
+    background-image: url(https://images.unsplash.com/photo-1486174975375-bd1c9e108596?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
     background-size: cover;
     background-position: center;
-    
+
 
 }
-#div1box{
+
+#div1box {
     width: 280px;
     height: 400px;
     background-color: white;
@@ -79,7 +99,8 @@ font-size: 40px;
     left: 25%;
     top: 480px;
 }
-#div1h2{
+
+#div1h2 {
     text-align: center;
     font-size: 45px;
     margin-top: 19px;
@@ -87,7 +108,8 @@ font-size: 40px;
 
     font-weight: 100;
 }
-#div1p1{
+
+#div1p1 {
     text-align: center;
     font-size: 25px;
     margin-top: 5px;
@@ -98,7 +120,8 @@ font-size: 40px;
 
     font-family: 'Genos', sans-serif;
 }
-#div1b{
+
+#div1b {
     font-size: 23px;
     background-color: black;
     color: white;
@@ -107,7 +130,8 @@ font-size: 40px;
     padding: 5px 30px;
     border-radius: 5px;
 }
-#div2h2{
+
+#div2h2 {
     text-align: center;
     font-size: 45px;
     margin-top: 19px;
@@ -115,7 +139,8 @@ font-size: 40px;
 
     font-weight: 100;
 }
-#div2p1{
+
+#div2p1 {
     text-align: center;
     font-size: 25px;
     margin-top: 5px;
@@ -126,7 +151,8 @@ font-size: 40px;
 
     font-family: 'Genos', sans-serif;
 }
-#div2b{
+
+#div2b {
     font-size: 23px;
     background-color: black;
     color: white;
@@ -136,14 +162,15 @@ font-size: 40px;
     border-radius: 5px;
 }
 
-#div2{
+#div2 {
     width: 100%;
     height: 800px;
     background-color: #BEEBE9;
     position: relative;
 
 }
-#imgdiv2{
+
+#imgdiv2 {
     width: 35%;
     height: 70%;
 
@@ -151,7 +178,8 @@ font-size: 40px;
     right: 49%;
     top: 30%;
 }
-#subdiv2{
+
+#subdiv2 {
     width: 22%;
     height: 65%;
     position: absolute;
@@ -161,7 +189,8 @@ font-size: 40px;
 
     background-color: white;
 }
-.div3{
+
+.div3 {
     width: 100%;
     height: 1000px;
 
@@ -169,16 +198,18 @@ font-size: 40px;
     background-color: #EFFFFD;
     position: relative;
 }
-#img1div3{
+
+#img1div3 {
     width: 35%;
     height: 50%;
 
     position: absolute;
     bottom: 15%;
     left: 8%;
-   
+
 }
-#img2div3{
+
+#img2div3 {
     width: 35%;
     height: 50%;
 
@@ -186,7 +217,8 @@ font-size: 40px;
     bottom: 15%;
     right: 8%;
 }
-#div3h2{
+
+#div3h2 {
     text-align: center;
     font-size: 45px;
     margin-top: 19px;
@@ -194,7 +226,8 @@ font-size: 40px;
 
     font-weight: 100;
 }
-#div3p1{
+
+#div3p1 {
     text-align: center;
     font-size: 25px;
     margin-top: 5px;
@@ -205,7 +238,8 @@ font-size: 40px;
 
     font-family: 'Genos', sans-serif;
 }
-#div3b{
+
+#div3b {
     font-size: 23px;
     background-color: black;
     color: white;
@@ -214,7 +248,8 @@ font-size: 40px;
     padding: 5px 30px;
     border-radius: 5px;
 }
-#subdiv3{
+
+#subdiv3 {
     width: 22%;
     height: 42%;
     position: absolute;
@@ -222,8 +257,9 @@ font-size: 40px;
     right: 39%;
     top: 50%;
 
-     background: linear-gradient( to bottom left,white,#91D8E4);
+    background: linear-gradient(to bottom left, white, #91D8E4);
 }
+
 /* .footer{
     width: 100vw;
     height: 50vh;
@@ -263,7 +299,7 @@ font-size: 40px;
     font-family: 'Unica One', cursive; */
 
 /* } */
-#d4{
+#d4 {
     width: 100%;
     height: 500px;
     background-color: white;
@@ -272,7 +308,7 @@ font-size: 40px;
 
 }
 
-#h4{
+#h4 {
     font-family: 'Tilt Neon', cursive;
     margin-top: 120px;
     /* background-color: #1C315E; */
@@ -284,8 +320,8 @@ font-size: 40px;
 
 }
 
-#lemailbox{
-   background-color: white;
+#lemailbox {
+    background-color: white;
     color: #7dd2ce;
     font-size: 20px;
     padding: 8px;
@@ -308,27 +344,30 @@ font-size: 40px;
     padding: 8px;
     background-color: #EB6440;
 }
-#d5{
+
+#d5 {
     font-family: 'Tilt Neon', cursive;
     font-size: 20px;
-   position: absolute;
-   left: 28%;
-   top: 400%;
-   padding-top: 2%;
+    position: absolute;
+    left: 28%;
+    top: 400%;
+    padding-top: 2%;
 
 
 }
-#d6{
+
+#d6 {
     font-family: 'Tilt Neon', cursive;
     font-size: 20px;
-   position: absolute;
-   left: 58%;
-   top: 400%;
-   padding-top: 2%;
+    position: absolute;
+    left: 58%;
+    top: 400%;
+    padding-top: 2%;
 
 
 }
-#d7{
+
+#d7 {
     font-family: 'Tilt Neon', cursive;
     font-size: 20px;
     position: absolute;
@@ -336,15 +375,18 @@ font-size: 40px;
     left: 88%;
     padding-top: 2%;
 }
-#imgapp{
+
+#imgapp {
     margin-top: 30px;
     margin-left: 20px;
 }
-#imgapp1{
+
+#imgapp1 {
     margin-top: 30px;
     margin-right: 60px;
 }
-#d8{
+
+#d8 {
     font-family: 'Tilt Neon', cursive;
     font-size: 20px;
     position: absolute;
